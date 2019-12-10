@@ -35,9 +35,9 @@ chmod 755 setup2.sh
 chmod 755 setup3.sh
 chmod 755 stackRun.sh
 ./setup1.sh
-./setup2.sh
-./setup3.sh
-./stackRun.sh
+/home/shhan/Install-Devstack/setup2.sh
+/home/shhan/Install-Devstack/setup3.sh
+/home/shhan/Install-Devstack/stackRun.sh
 ```
 
 ### 5. vi local.conf <br>
