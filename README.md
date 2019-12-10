@@ -10,7 +10,7 @@ Openstack 설치 방법 정리
 ### 1. ssh <br>
 * 외부 접속을 위해서 ssh 설치 <br>        
 ```
-sudo apt-get install openssh-server
+sudo apt-get install -y openssh-server
 ```
 
 ### 2. vim <br>
