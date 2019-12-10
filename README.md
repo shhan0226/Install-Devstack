@@ -3,7 +3,7 @@
 ## Introduction
 * Openstack 설치 방법 정리
   * Ubuntu 18.04
-  * devstack 2019.12.10 version 
+  * devstack v2019.12.10
 
 <br>
 
