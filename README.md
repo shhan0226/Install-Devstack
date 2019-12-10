@@ -23,12 +23,16 @@ sudo apt-get -y install vim
 * git 설치 <br>        
 ```
 sudo apt-get -y install git
-git clone 
+git clone https://github.com/shhan0226/Install-Devstack.git
 ```
 
 ### 4. sh <br>
 * 작성된 .sh를 순서데로 실행 <br>        
 ```
-cd 
+cd Install-Devstack
+chmod 755 setup1.sh
+chmod 755 setup2.sh
+chmod 755 setup3.sh
+chmod 755 stackRun.sh
 ```
 
