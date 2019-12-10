@@ -42,10 +42,12 @@ chmod 755 stackRun.sh
 
 ### 5. vi local.conf <br>
 * 내용을 수정 <br>        
-[[local|localrc]]
+```
+[local|localrc]
 HOST_IP=127.0.0.1
 ADMIN_PASSWORD=secret
 DATABASE_PASSWORD=$ADMIN_PASSWORD
 RABBIT_PASSWORD=$ADMIN_PASSWORD
 SERVICE_PASSWORD=$ADMIN_PASSWORD
+```
 
