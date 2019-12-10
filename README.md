@@ -34,5 +34,9 @@ chmod 755 setup1.sh
 chmod 755 setup2.sh
 chmod 755 setup3.sh
 chmod 755 stackRun.sh
+./setup1.sh
+./setup2.sh
+./setup3.sh
+./stackRun.sh
 ```
 
