@@ -9,4 +9,5 @@ sudo chown -R stack:stack /opt/stack/.cache
 cd /opt/stack/
 ls -al
 cd /opt/stack/devstack
+virtualenv /opt/stack/requirements/.venv/
 /opt/stack/devstack/stack.sh
