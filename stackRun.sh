@@ -1,7 +1,10 @@
 echo --------------------------------stack_run----------------------------------------
-chmod -R 777 /opt/stack/devstack
-chmod -R 777 /opt/stack
-chmod -R 777 /opt/
-chown -R stack:stack /opt/stack/.cache
+sudo chmod -R 777 /opt/stack/devstack
+sudo chmod -R 777 /opt/stack
+sudo chmod -R 777 /opt/
+echo chown -R stack:stack /opt/stack/.cache
+sudo chown -R stack:stack /opt/stack/.cache
+cd /opt/stack/
+ls -al
 cd /opt/stack/devstack
-./stack.sh
+/opt/stack/devstack/stack.sh
