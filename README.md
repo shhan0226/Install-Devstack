@@ -54,8 +54,10 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 
 ### 6. Run & Error <br>
 * 실행은 stackRun.sh를 이용함 <br>        
-* 오류가 발생할 경우 stackClr.sh를 사용하고 오류를 수정함<br>        
 ```
 /home/사용자/Install-Devstack/stackRun.sh
-
+```
+* 오류가 발생할 경우 stackClr.sh를 사용하고 오류를 수정함<br>
+```
 /home/사용자/Install-Devstack/stackClr.sh
+```
