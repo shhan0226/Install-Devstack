@@ -5,7 +5,6 @@ echo [__update__]
 sudo apt-get -y upgrade
 sudo apt-get -y update
 echo [__pip__]
-pip install --upgrade pip
 sudo apt -y install python-pip
 sudo pip install --upgrade pip
 echo [__git__]
