@@ -36,10 +36,9 @@ chmod 755 setup1.sh
 chmod 755 setup2.sh
 chmod 755 setup3.sh
 chmod 755 stackRun.sh
-./setup1.sh
+/home/사용자/Install-Devstack/setup1.sh
 /home/사용자/Install-Devstack/setup2.sh
 /home/사용자/Install-Devstack/setup3.sh
-/home/사용자/Install-Devstack/stackRun.sh
 ```
 
 ### 5. vi local.conf <br>
@@ -53,3 +52,10 @@ RABBIT_PASSWORD=$ADMIN_PASSWORD
 SERVICE_PASSWORD=$ADMIN_PASSWORD
 ```
 
+### 6. Run & Error <br>
+* 실행은 stackRun.sh를 이용함 <br>        
+* 오류가 발생할 경우 stackClr.sh를 사용하고 오류를 수정함<br>        
+```
+/home/사용자/Install-Devstack/stackRun.sh
+
+/home/사용자/Install-Devstack/stackClr.sh
