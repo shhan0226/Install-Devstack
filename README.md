@@ -29,10 +29,17 @@ $git clone https://github.com/shhan0226/Install-Devstack.git
 ```
 
 ### 4. sh <br>
-* 작성된 .sh를 순서데로 실행 <br>        
+* 작성된 .sh를 순서데로 실행 <br>
+* 사용자 로그인
 ```
 $/home/사용자/Install-Devstack/setup1.sh
+```
+* root 로그인
+```
 $/home/사용자/Install-Devstack/setup2.sh
+```
+* stack 로그인
+```
 $/home/사용자/Install-Devstack/setup3.sh
 ```
 
