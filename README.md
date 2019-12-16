@@ -60,13 +60,12 @@ SERVICE_PASSWORD=$ADMIN_PASSWORD
 $/home/사용자/Install-Devstack/stackRun.sh
 ```
 * 첫 실행시 .cache 권한 때문에 오류가 발생함<br>
-   * 오류가 발생할 경우 stackClr.sh를 사용해 한번 지워주고 다시 실행(필요할 경우 오류를 수정)<br>
+* 오류가 발생할 경우 stackClr.sh를 사용해 한번 지워주고 다시 실행(필요할 경우 오류를 수정)<br>
 ```
 $/home/사용자/Install-Devstack/stackClr.sh
 $/home/사용자/Install-Devstack/stackRun.sh
 ```
-
-   * 실행 전, stack 로그인 필요
+* 실행 전, stack 로그인 필요
 ```
 $su - stack
 ```
